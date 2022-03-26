@@ -19,7 +19,7 @@ export default function App() {
   return (
     <div className="App">
       {user && <h1>Hello {user.firstName}</h1>}
-      <h2>The alternative way to call API </h2>
+      <h2>Calling API via Redux Saga </h2>
     </div>
   );
 }
