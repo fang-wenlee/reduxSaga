@@ -8,7 +8,9 @@ Step by Step:
     1. Create watcher saga: constantly watch dispagteched "USER_FETCH" action and call the handlerfunction
     2. create Worker saga: //actual handler; will be fired on USER_FETCH  action.
                            will call the api
-                           
+
+
+//=====================================================================================
  To run Saga, need to connect saga to the Redux store to using the redux-saga middleware.  
  
 import { createStore, combineReducers, applyMiddleware } from "redux";
